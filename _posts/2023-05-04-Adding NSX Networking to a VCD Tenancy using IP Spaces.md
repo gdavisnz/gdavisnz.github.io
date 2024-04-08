@@ -140,7 +140,7 @@ Creating a new Provider Gateway is achieved in the VCD Provider Portal.  Resourc
 
 Choose NSX Manager and click **Next**
 
-![Figure 14: Choose NSX-T ](1/images/folder1/4-pgnsx.png)
+![Figure 14: Choose NSX-T ](1/images/folder1/14-pgnsx.png)
 
 Give your Provider Gateway a Name and also choose what VCD IP Management capability will be used.  In this example we will use IP Spaces, click **Next**
 
