@@ -109,10 +109,10 @@ Next is to create 2 Transport Zones in System >> Fabric >> Transport Zones.  I n
 Next to to create Uplink Profiles (System >> Fabric >> Profiles),  these profiles essentaily map NICs to uplinks in vcenter, you can configure # of uplinks + configure Active/Active or Active Standby Scenarios.
 
 I created 2 Uplink profiles here 
-<ul>
-<li><b>edge-uplink-profile</b> I just need the one interface as this is a lab
-<li><b>host-uplink-profile</b> I created 2 NICs for my ESXi Hosts to manage my nsxvds switch, i also added VLAN 6 as my transport VLAN
-</ul>
+
+* <b>edge-uplink-profile</b> I just need the one interface as this is a lab
+* <b>host-uplink-profile</b> I created 2 NICs for my ESXi Hosts to manage my nsxvds switch, i also added VLAN 6 as my transport VLAN
+
 
 ![Figure 5: Creating Edge and Host Uplink Profiles](5-uplinks.PNG)
 
